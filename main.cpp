@@ -5,7 +5,7 @@
 int main(int, char**){
     std::cout << "Hello, from 30_1_custom_requests!\n";
 
-    std::string request;
+    std::string request = "";
     
     while(request != "exit"){
         std::cout << "Enter your request get/post/put/delete/patch or exit:";
